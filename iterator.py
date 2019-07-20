@@ -1,3 +1,8 @@
+"""
+    Python code to demonstrate naive method to compute iterator
+"""
+
+
 class Sup:
     def __init__(self, limit):
         self.limit = limit

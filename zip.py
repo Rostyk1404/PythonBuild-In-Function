@@ -1,5 +1,6 @@
-a = [1, 2, 3]
-b = [7, 8, 9]
+"""
+    Python code to demonstrate naive method to compute zip
+"""
 
 
 def my_zip(lst1, lst2):

@@ -1,4 +1,7 @@
 def my_slices(my_list, start: int = None, end: int = None, step: int = None):
+    """
+        Python code to demonstrate naive method to compute slices
+    """
     a = []
     if step == None:
         step = 1

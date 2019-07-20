@@ -1,4 +1,7 @@
 def my_range(start: int, end: int = None, step: int = None):
+    """
+        Python code to demonstrate naive method to compute range
+    """
     if step is None:
         step = 1
     if end is None:
