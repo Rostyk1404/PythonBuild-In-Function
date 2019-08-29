@@ -1,15 +1,14 @@
-def my_slices(my_list, start: int = None, end: int = None, step: int = None):
+c = [1, 2, 3, 4, 5, 6, 7, 99, 7, 867, 654]
+
+
+def my_slices(my_list, start: int = None, stop: int = None, step: int = None):
     """
         Python code to demonstrate naive method to compute slices
     """
-    a = []
-    if step == None:
+    if step is None:
         step = 1
 
-    if start == None or end == None:
+    if start is None or stop is None:
         return my_list[start]
-
-    for x in range(start, end, step):
-        a.append(my_list[x])
-
-    return a
+    else:
+        return my_list[start:stop:step]
